@@ -7,7 +7,7 @@ cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718038217698/ab3e58c
 
 ---
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038210942/3357681e-dff6-4401-a474-b78220abebb8.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038210942/3357681e-dff6-4401-a474-b78220abebb8.png align="left")
 
 Drupal Association is a part of GSoC
 
@@ -29,7 +29,7 @@ Receiving the acceptance email was a moment of pure joy and relief. My hard work
 
 The first month of GSoC, known as the community bonding period, was crucial for establishing a strong foundation for the project. I made it a point to build a good rapport with my mentor, who had extensive experience with Drupal. She guided me through the necessary documentation and explained the Drupal architecture in detail, which was invaluable for my project.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038212788/bc3cb213-a4c3-49ff-a7d6-3cee61b69661.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038212788/bc3cb213-a4c3-49ff-a7d6-3cee61b69661.png align="left")
 
 Official Drupal Profile
 
@@ -39,7 +39,7 @@ During this period, I set up my Drupal Account and Drupal Git profile, as Drupal
 
 XAMPP is an open-source platform that provides an easy-to-install distribution for Apache servers, MySQL, PHP, and Perl. It’s a great tool for beginners to set up a local web server environment quickly. However, for a more advanced and streamlined workflow, especially in collaborative and containerized environments, DDEV stands out.
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038214623/ac817b31-87f2-4c2c-bee6-b7a2bb147980.png)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038214623/ac817b31-87f2-4c2c-bee6-b7a2bb147980.png align="left")
 
 DDev: Docker-based PHP development enviroment
 
@@ -47,7 +47,7 @@ DDEV is a Docker-based tool designed for local PHP development environments. It 
 
 #### Diving into Symfony
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038216206/3007c7c0-351d-4fe9-a660-966cd61c4dac.jpeg)
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1718038216206/3007c7c0-351d-4fe9-a660-966cd61c4dac.jpeg align="left")
 
 Symfony: Free and Open-source PHP web application framework
 
@@ -57,33 +57,13 @@ Here’s a simple comparison of Symfony with C++ through a basic example:
 
 *Symfony Controller Example:*
 
-// src/Controller/DefaultController.php  
-namespace App\\Controller;  
-use Symfony\\Component\\HttpFoundation\\Response;  
-use Symfony\\Component\\Routing\\Annotation\\Route;  
-  
-class DefaultController  
-{  
- /\*\*  
- \* @Route("/hello/{name}", name="hello")  
- \*/  
- public function hello($name) {  
- return new Response('<html><body>Hello '.$name.'!</body></html>');  
- }  
-}
+`// src/Controller/DefaultController.php   namespace App\Controller;   use Symfony\Component\HttpFoundation\Response;   use Symfony\Component\Routing\Annotation\Route;`
+
+`class DefaultController   {   /**   * @Route("/hello/{name}", name="hello")   */   public function hello($name) {   return new Response('Hello '.$name.'!');   }   }`
 
 *Equivalent C++ example:*
 
-#include <iostream>  
-#include <string>  
-void hello(const std::string& name) {  
- std::cout << "Hello " << name << "!" << std::endl;  
-}  
-int main() {  
- std::string name = "World";  
- hello(name);  
- return 0;  
-}
+`#include   #include   void hello(const std::string& name) {   std::cout << "Hello " << name << "!" << std::endl;   }   int main() {   std::string name = "World";   hello(name);   return 0;   }`
 
 **Comparison:**  
 **\- Language Structure:** PHP is designed for web development with a focus on ease of use and speed, while C++ is a general-purpose programming language known for its performance and control over system resources.  
